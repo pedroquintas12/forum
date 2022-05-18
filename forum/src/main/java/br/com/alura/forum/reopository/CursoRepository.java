@@ -7,7 +7,6 @@ import br.com.alura.forum.modelo.Curso;
 public interface CursoRepository extends JpaRepository<Curso, Long> {
 
 	static Curso findBynome(String nomeCurso) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
